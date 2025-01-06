@@ -1,0 +1,160 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial,sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav li,
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+    font-family: Arial,sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+nav .active,
+nav a:hover  {
+    background-color: #39aae1;
+    color: white;
+}
+
+#banner {
+    background-image: url(image/img1.jpg);
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 670px;
+}
+
+.column {
+    width: 990px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_headline {
+    flex: 1;
+    display: flex;
+    width: 298px;
+    align-items: center;
+
+}
+
+.banner_headline h1,
+.banner_headline h2 {
+    padding: 0;
+    margin: 0;
+    text-shadow: 1px 1px 3px black;
+    color: #ffff;
+}
+
+.banner_headline h1 {
+    font-size: 46px;
+}
+
+.banner_headline h2 {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.banner_opitions {
+    display: flex;
+    height: 210px;
+}
+
+.box1,
+.box2,
+.box3 {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.box1 {
+    background-color: #39aae1;
+}
+
+.box2 {
+    background-color: #0079c7;
+  
+}
+
+.box3 {
+    background-color: #2b4c99;
+    
+
+}
+
+.banner_title {
+    font-size: 23px;
+    color: #ffff;
+}
+
+.banner_desc {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    color: #ffff;
+}
+
+.banner_button a{
+
+    color: #ffff;
+    text-decoration: none;
+    border: 1px solid #ffff;
+    padding: 5px;
+}
+
+.box3 .banner_title {
+    margin-bottom: 20px;
+}
+
+.banner_mark {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #39aae1;
+    margin-bottom: 10px;
+
+}
+
+.day,
+.time {
+    font-size: 18px;
+}
